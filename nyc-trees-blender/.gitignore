@@ -1,0 +1,11 @@
+# Blender saves and backups (the .blend contains Google imagery, which must not be redistributed)
+*.blend
+*.blend1
+*.blend2
+# large raw downloads: keep only small clips in data/
+*.zip
+data/*_full*.geojson
+Forestry_Tree_Points*.geojson
+# macOS / editors
+.DS_Store
+__pycache__/
